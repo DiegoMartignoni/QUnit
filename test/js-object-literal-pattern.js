@@ -10,5 +10,5 @@ var macchina1 = {
 QUnit.test( "Object Literal Test", function( Oggettotest ) {
   var expected = 'Veicolo: 2000 Ford Fusion';
   var actual = macchina1.getInfo();
-  Oggettotest.equal(actual, expected, 'Valore aspettato: ' + expected + 'Valore vero: ' + actual);
+  Oggettotest.equal(actual, expected, 'Valore aspettato: ' + expected + ' Valore vero: ' + actual);
 });
